@@ -1,0 +1,24 @@
+generator: generator.cpp
+
+test_cases:
+  - batched:
+      - {generator_args: [1]}
+      - {generator_args: [2]}
+    points: 0
+
+  - batched:
+      - {generator_args: [3]}
+      - {generator_args: [4]}
+    points: 10
+
+  - batched:
+      - {generator_args: [5]}
+      - {generator_args: [6]}
+    points: 30
+
+  - batched:
+      - {generator_args: [7]}
+      - {generator_args: [8]}
+      - {generator_args: [9]}
+      - {generator_args: [10]}
+    points: 60
